@@ -1,0 +1,20 @@
+.nature {
+  width: 180px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  /* text-align: center; */
+  /* margin: auto; */
+}
+#div-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  width: 200px;
+  height: 200px;
+  background-color: rgb(37, 147, 147);
+  border: 2px solid rgb(39, 36, 36);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px red;
+}

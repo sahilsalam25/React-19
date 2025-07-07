@@ -1,7 +1,7 @@
 // import { useState } from 'react';
 // import reactLogo from './assets/react.svg';
 // import viteLogo from '/vite.svg';
-import "./App.css";
+// import "./App.css";
 
 import User from "./User.jsx";
 import { Profile, NewProfile } from "./User.jsx";
@@ -18,6 +18,10 @@ import { Radio } from "./Radio.jsx";
 import { LoopJSX } from "./LoopJSX.jsx";
 import ClockColor from "./ClockColor.jsx";
 import NestedLoop from "./NestedLoop.jsx";
+import UseEffect from "./Components/UseEffect.jsx";
+import Cards from "./Components/Cards.jsx";
+import ModuleCSS from "./ModuleCSS/ModuleCSS.jsx";
+import StyleComponent from "./Components/StyleComponent.jsx";
 
 function App() {
   // let name = 'Amir Salam';
@@ -31,6 +35,12 @@ function App() {
   return (
     <>
       <h2>This is my first react 19 </h2>
+      {/* <StyleComponent /> */}
+      {/* <ModuleCSS /> */}
+      {/* <div id="div-image"></div> */}
+
+      {/* <Cards /> */}
+      {/* <UseEffect /> */}
       {/* <NestedLoop /> */}
       {/* <ClockColor /> */}
       {/* <LoopJSX /> */}

@@ -1,0 +1,57 @@
+/* .div-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  z-index: 3;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(37, 147, 147);
+  border: 2px solid rgb(39, 36, 36);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px red;
+} */
+
+/* .nature-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
+  object-fit: cover;
+  box-shadow: 3px 3px 4px rgb(168, 36, 36);
+  margin-bottom: 5px;
+  text-align: center; 
+ margin: auto;
+} */
+
+/* Chatgpt 01 july 25 */
+
+.wrapper {
+  display: flex; /* ✅ puts items in a row */
+  flex-direction: row;
+  align-items: center;
+  gap: 20px; /* ✅ spacing between image and box */
+  padding: 10px;
+}
+
+.nature-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 3px 3px 4px rgb(168, 36, 36);
+}
+
+.div-img {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(37, 147, 147);
+  border: 2px solid rgb(39, 36, 36);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
