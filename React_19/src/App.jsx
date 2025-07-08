@@ -22,6 +22,16 @@ import UseEffect from "./Components/UseEffect.jsx";
 import Cards from "./Components/Cards.jsx";
 import ModuleCSS from "./ModuleCSS/ModuleCSS.jsx";
 import StyleComponent from "./Components/StyleComponent.jsx";
+import InputRef from "./Components/InputRef.jsx";
+import UncontrolledComponent from "./Components/UncontrolledComponent.jsx";
+import ForwardRefParent from "./Components/ForwardRefParent.jsx";
+import UseFormStatus from "./Components/UseaFormStatus.jsx";
+import UseTransition from "./Components/UseTransition.jsx";
+import UseTransitionGpt from "./Components/UseTransitionGpt.jsx";
+import LiftingStateUp from "./Components/LiftingStateUp.jsx";
+import UpdatingArrayState from "./Components/UpdatingArrayState.jsx";
+import UseAction from "./Components/UseAction.jsx";
+import UseId from "./Components/UseId.jsx";
 
 function App() {
   // let name = 'Amir Salam';
@@ -35,6 +45,16 @@ function App() {
   return (
     <>
       <h2>This is my first react 19 </h2>
+      {/* <UseId /> */}
+      {/* <UseAction /> */}
+      {/* <UpdatingArrayState /> */}
+      {/* <LiftingStateUp /> */}
+      {/* <UseTransition /> */}
+      {/* <UseTransitionGpt /> */}
+      {/* <UseFormStatus /> */}
+      {/* <ForwardRefParent /> */}
+      {/* <UncontrolledComponent /> */}
+      {/* <InputRef /> */}
       {/* <StyleComponent /> */}
       {/* <ModuleCSS /> */}
       {/* <div id="div-image"></div> */}
